@@ -5,25 +5,34 @@
 .text-color {
   color: #e43f5a;
 }
+.navbar {
+  background-color: white;
+  font-family: "Zen Tokyo Zoo";
+}
+.navbar a {
+  font-size: 36px;
+}
 
 body {
-  background-color: black;
+  background-color: white;
   padding-bottom: 10px;
+  color: #242424;
 }
 
 .flex-container {
-  margin-top: 10px;
   display: flex;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 80%;
+  margin: 10px auto;
   height: 550px;
   justify-content: center;
+  border: 1px solid gray;
   transition: 2s all ease;
 }
 
 .flex-item {
   background: #e43f5a;
-  border: 1pt solid black;
+  border: 1px solid black;
   width: 10px;
   transition: 0.1s all ease;
 }
@@ -83,10 +92,16 @@ body {
 }
 
 .range-input .label {
-  color: white;
+  /* color: white; */
   font-weight: 600;
   display: flex;
   height: 35px;
   line-height: 35px;
   margin: auto;
+}
+
+#control-panel button {
+  color: white;
+  border: 1px solid white;
+  background: rgb(45, 45, 47);
 }
